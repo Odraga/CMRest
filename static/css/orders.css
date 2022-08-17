@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato:wght@300;400&family=Roboto+Mono:ital,wght@0,100;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans&family=Lato:wght@300;400&display=swap');
+
+
+html, body {
+    min-height: 100%;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    backdrop-filter: blur(3px);
+  
+}
+
+*{
+  margin: 0;
+	padding: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+
+header{
+  width: 100%;
+  z-index:100;
+}
+
+.navvar-header{
+  background-color: rgba(87, 163, 255,0.6);
+  padding: 0.1rem;
+}
+
+.container-title{
+  background-color: rgba(61, 114, 180,0.7);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+
+.navvar-header a {
+  color: lightgray;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  margin: 5%;
+    
+}
+
+.navvar-header a:hover{
+  color:#0e407e;
+}
+nav ul li{
+  list-style: none;
+  display: inline;
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.navvar-header hr{
+  border: 0;
+  border-top: 2px solid  lightgray;
+
+}
+
+
+.table-list{
+    margin: 50px;
+    background-color: rgba(31, 53, 65,0.8);
+    border-radius: 5px;
+    height: 100%;
+    width: 95%;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+
+.table-list div h3{
+    font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 18px;
+    color: lightgray;
+}
+
+h6.copy{
+    font-size: 15px;
+    color: lightgray;
+}
+
+table#tbl_orders_waiting tr th{
+  font-family: 'DM Sans', sans-serif;
+  color: lightgray;
+}
+
+table#tbl_orders_waiting tr td{
+  font-family: 'DM Sans', sans-serif;
+  color: rgb(190, 126, 126);
+}
+
+table#tbl_orders_done tr th{
+  font-family: 'DM Sans', sans-serif;
+  color: lightgray;
+}
+
+table#tbl_orders_done tr td{
+  font-family: 'DM Sans', sans-serif;
+  color: rgb(190, 126, 126);
+}
+
+
+/* footer */
+
+.footer-basic {
+    padding:40px 0;
+    background-color: rgba(14, 50, 97, 0.8);
+    color:lightgray;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+  
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+  
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  color: #3d72b4;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+
+#tbl_orders_waiting{
+  margin: 0 auto;
+}
+
+#tbl_orders_done{
+  margin: 0 auto;
+}

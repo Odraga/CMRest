@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMRest | Orders</title>
+
+    <link rel="stylesheet" href="../static/css/new-order.css">
+</head>
+<body>
+    <div class="navvar-header">
+        <a href="menu.html">Back Menu</a>
+    </div>
+    <section class="table-list">
+        <div class="container-title">
+            <h3>New Order</h3>
+        </div>
+        <div>
+            <div>
+                <h4>Tables</h4>
+                <select id="select_tables">
+                </select>
+                <button>Change</button>
+            </div>
+            <div>
+                <h4>Food Dishes</h4>
+                <select id="select_food_dishes">
+                    <option value="P0">No Food</option>
+                    <option value="P1">Pabellon Criollo</option>
+                    <option value="P2">Sopa de Mondongo</option>
+                    <option value="P3">Arepa</option>
+                    <option value="P4">Hallaca</option>
+                    <option value="P5">Patacones</option>
+                    <option value="P6">Empanada</option>
+                </select>
+            </div>
+            <div>
+                <h4>Candy</h4>
+                <select id="select_candy">
+                    <option value="D0">No Candy</option>
+                    <option value="D1">Quesillo</option>
+                    <option value="D2">Arroz con Leche</option>
+                    <option value="D3">Besitos de Coco</option>
+                    <option value="D4">Dulce de Leche</option>
+                    <option value="D5">Dulce de Lechosa</option>
+                    <option value="D6">Dulce Tres Leches</option>
+                </select>
+            </div>
+            <div>
+                <h4>Natural Drinks and Merengada</h4>
+                <select id="select_drinks">
+                    <option value="B0">No Drink</option>
+                    <option value="B1">Parchita Juice</option>
+                    <option value="B2">Lechoza Juice</option>
+                    <option value="B3">Mango Juice</option>
+                    <option value="B4">Merengada de Lechoza</option>
+                    <option value="B5">Merengada de Cambur</option>
+                    <option value="B6">Merengada de Mango</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <button id="btn_add_order">
+                    Add Order
+                </button>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="table-list">
+        <div class="container-title">
+            <h3>List of Orders</h3>
+        </div>
+        <div>
+            <table id="tbl_order">
+                <th>Food Dishes</th>
+                <th>Candy</th>
+                <th>Drinks</th>
+                <th>Table</th>
+                <th></th>
+                <th><button id="btn_create_order">Create Order</button></th>
+            </table>
+        </div>
+    </section>
+
+    
+    <div class="footer-basic">
+      <footer>
+          <h6 class="copy">&reg; 2020 - Todos los derechos reservados</h6>
+      </footer>
+    </div>
+
+    <script src="../static/js/new-order.js"></script>
+</body>
+</html>
+

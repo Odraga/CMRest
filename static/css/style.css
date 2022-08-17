@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #525252, #3d72b4);
+}
+#login-container {
+    width: calc(350px);
+    height: calc( 520px);
+    background-color: rgba(255,255,255,0.12);;
+    margin: auto;
+    margin-top: calc(30px);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 10px 4px 9px 0px rgba(0,0,0,0.6);
+}
+#login-container h1 {
+    text-align: center;
+    margin-top: calc(20px);
+    padding-top: calc(20px);
+    color: #EDF2F3;
+    font-family: 'Nunito', sans-serif;
+}
+#login-container .div-log-container {
+    list-style: none;
+    margin-top: calc(30px);
+    margin-left: calc(50px);
+}
+
+/* ESTILOS DENTRO DEL CONTAINER */
+label {
+    display: block;
+    margin-bottom: calc(15px);
+    padding-top: calc(15px);
+    font-size: 18px;
+    color: #EDF2F3;
+    font-family: 'Nunito', sans-serif;
+
+}
+#login-container input {
+    width: calc(80%);
+    padding: calc(3px);
+    height: 38px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    font-weight: 300;
+    outline: none;
+    border: none;
+}
+#btn_login{
+    display: block;
+    text-align: center;
+    margin-top: calc(20px);
+    background-color: #1F3541;
+    width: calc(240px);
+    padding: 10px;
+    color: #EDF2F3;
+    text-decoration: none;
+    opacity: 0.70;
+    border: 0ch;
+
+
+}
+
+#btn_login:hover {
+    opacity: 0.60;
+    transition-duration: 250ms;
+    cursor: pointer
+    
+}
+
+i {
+    padding-left: 20px;
+    color: #EDF2F3;
+}
+
+::placeholder {
+    color: #EDF2F3;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#login-container .desc{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+    max-width: 310px;
+    font-weight: bold;
+    margin: 8%;
+
+}
+
+#copy{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.cmrest{
+    font-size: 30px;
+}
+
+
+
+

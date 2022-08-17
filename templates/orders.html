@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../static/css/orders.css">
+    <link rel="stylesheet" href="../static/css/modal-order-style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navvar-header">
+            <ul>
+                <li><a href="#waiting">Orders Waiting</a></li>
+                <li><a href="menu.html">Back Menu</a></li>
+                <li><a href="#done">Orders Done</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="fondo_transparente">
+        <div class="modal">
+            <div id="modal_titulo" class="modal_titulo"></div>
+            <div class="modal_mensaje">
+                <table id="tbl_view_orders">
+                    <th>#</th>
+                    <th>Food Dishes</th>
+                    <th>Candy</th>
+                    <th>Drinks/Merengada</th>
+                    <th>Table</th>
+                    <th>Status</th>
+                </table>
+            </div>
+            <div class="modal_botones">
+                <a href="" class="boton">ACEPTAR</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="waiting" class="table-list">
+        <div class="container-title">
+            <h3>ORDERS WAITING</h3>
+        </div>
+        <hr>
+        <div id="container_tbl_orders_waiting">
+            <table id="tbl_orders_waiting">
+                <th>#</th>
+                <th>Order</th>
+                <th>Table</th>
+                <th>Status</th>
+                <th></th>
+                <th></th>
+            </table>
+            <div id="status_tbl">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="done" class="table-list">
+        <div class="container-title">
+            <h3>ORDERS DONE</h3>
+        </div>
+        <hr>
+        <div id="container_tbl_orders_done">
+            <table id="tbl_orders_done">
+                <th>#</th>
+                <th>Order</th>
+                <th>Table</th>
+                <th>Status</th>
+                <th></th>
+                <th></th>
+            </table>
+        </div>
+    </section>
+
+    <div class="footer-basic">
+        <footer>
+            <h6 class="copy">&reg; 2020 - Todos los derechos reservados</h6>
+        </footer>
+      </div>
+
+    <script src="../static/js/orders.js"></script>
+</body>
+</html>
